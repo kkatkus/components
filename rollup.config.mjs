@@ -16,7 +16,7 @@ export default [
         file: "dist/cjs/index.js",
         format: 'cjs',
         sourcemap: true,
-        name: 'use-form',
+        name: 'components',
       },
       {
         file: "dist/esm/index.js",
