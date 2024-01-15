@@ -1,1 +1,1 @@
-module.exports = { presets: ['@babel/preset-env'] };
+module.exports = { plugins: ["@emotion"], presets: ['@babel/preset-env'] };

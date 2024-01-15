@@ -24,7 +24,7 @@ export default [
         sourcemap: true,
       },
     ],
-    external: ['axios'],
+    external: [],
     plugins: [
       external(),
       resolve(),
