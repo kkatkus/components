@@ -11,6 +11,7 @@ interface StyledProps {
 }
 const Styled = styled.div<StyledProps>`
   display: inline-flex;
+  width: 100%;
   flex-direction: column;
   position: relative;
 

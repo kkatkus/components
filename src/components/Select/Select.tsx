@@ -10,13 +10,6 @@ import { Button } from '../Button';
 import { fieldMixin } from '../../theme/mixins';
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
 
-const iconSize = {
-  xs: '14px',
-  sm: '16px',
-  md: '18px',
-  lg: '21px',
-};
-
 const StyledIcon = styled(ChevronDownIcon)<{ size: Size }>`
   position: relative;
   right: ${({ size }) => `calc(-${theme.interactive.padding[size][1]} / 2)`};
@@ -43,6 +36,7 @@ const StyledButton = styled(Button)<ButtonProps>`
 
 const Styled = styled.div<{ size: Size }>`
   position: relative;
+  width: 100%;
   display: inline-flex;
   flex-direction: column;
   font-size: ${({ size }) => `${theme.typography.labels[size].fontSize}`};
